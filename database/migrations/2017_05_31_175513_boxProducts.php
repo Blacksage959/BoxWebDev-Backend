@@ -17,7 +17,7 @@ class BoxProducts extends Migration
         $table->string('name');
         $table->longText('image');
         $table->longText('description');
-    
+
         $table->timestamps();
     });
   }
