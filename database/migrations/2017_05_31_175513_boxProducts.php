@@ -15,6 +15,8 @@ class BoxProducts extends Migration
     Schema::create('products', function (Blueprint $table) {
         $table->increments('id');
         $table->string('name');
+        $table->string('artist');
+        $table->integer('time');
         $table->longText('image');
         $table->longText('description');
 
